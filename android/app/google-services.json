@@ -1,0 +1,40 @@
+{
+    "project_info": {
+        "project_number": "999999556750",
+        "firebase_url": "https://hummingbirds-73b7f.firebaseio.com",
+        "project_id": "hummingbirds-73b7f",
+        "storage_bucket": "hummingbirds-73b7f.appspot.com"
+    },
+    "client": [{
+        "client_info": {
+            "mobilesdk_app_id": "1:999999556750:android:23537b4a0945bf93",
+            "android_client_info": {
+                "package_name": "com.cognizant.cdbintspain.P2PTransport"
+            }
+        },
+        "oauth_client": [{
+            "client_id": "999999556750-68g6camogde6v9erq2nu5b38tggmush6.apps.googleusercontent.com",
+            "client_type": 3
+        }],
+        "api_key": [{
+            "current_key": "YOUR_KEY"
+        }],
+        "services": {
+            "appinvite_service": {
+                "other_platform_oauth_client": [{
+                        "client_id": "999999556750-68g6camogde6v9erq2nu5b38tggmush6.apps.googleusercontent.com",
+                        "client_type": 3
+                    },
+                    {
+                        "client_id": "999999556750-as4l5k0bvm7g79ubjf5uudbfggk221tb.apps.googleusercontent.com",
+                        "client_type": 2,
+                        "ios_info": {
+                            "bundle_id": "com.cognizant.cdbintspain.P2PTransport"
+                        }
+                    }
+                ]
+            }
+        }
+    }],
+    "configuration_version": "1"
+}

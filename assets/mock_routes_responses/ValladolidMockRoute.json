@@ -1,0 +1,524 @@
+{
+  "geocoded_waypoints": [
+    {
+      "geocoder_status": "OK",
+      "place_id": "ChIJPZDiy-JsRw0R_2oOhJTqyco",
+      "types": [
+        "premise"
+      ]
+    },
+    {
+      "geocoder_status": "OK",
+      "place_id": "ChIJfUoYycdsRw0Ral704JI92ng",
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "geocoder_status": "OK",
+      "place_id": "ChIJSy6zZjJtRw0RntBbdpd4PRQ",
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "geocoder_status": "OK",
+      "place_id": "ChIJscijtTNtRw0RmjqfnwNWe9Y",
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "geocoder_status": "OK",
+      "place_id": "ChIJD4ojWDFtRw0RIkHIrxlgsxA",
+      "types": [
+        "premise"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "bounds": {
+        "northeast": {
+          "lat": 41.6381477,
+          "lng": -4.7242739
+        },
+        "southwest": {
+          "lat": 41.6053828,
+          "lng": -4.7744366
+        }
+      },
+      "copyrights": "Map data ©2019 Inst. Geogr. Nacional",
+      "legs": [
+        {
+          "distance": {
+            "text": "9.6 km",
+            "value": 9612
+          },
+          "duration": {
+            "text": "12 mins",
+            "value": 711
+          },
+          "end_address": "Ape 25-1 Ariza, 8, 47008 Valladolid, Spain",
+          "end_location": {
+            "lat": 41.6349845,
+            "lng": -4.7306386
+          },
+          "start_address": "Calle Costa, 3, 47008 Valladolid, Spain",
+          "start_location": {
+            "lat": 41.6213035,
+            "lng": -4.7584862
+          },
+          "steps": [
+            {
+              "distance": {
+                "text": "0.1 km",
+                "value": 118
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 13
+              },
+              "end_location": {
+                "lat": 41.6204506,
+                "lng": -4.75765
+              },
+              "html_instructions": "Head <b>southeast</b> on <b>Calle Costa</b> toward <b>Camino Viejo de Simancas</b>",
+              "polyline": {
+                "points": "cd`}Fpk`\\XWf@g@^]\\[VWPU"
+              },
+              "start_location": {
+                "lat": 41.6213035,
+                "lng": -4.7584862
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "1.6 km",
+                "value": 1645
+              },
+              "duration": {
+                "text": "3 mins",
+                "value": 164
+              },
+              "end_location": {
+                "lat": 41.6127183,
+                "lng": -4.7741506
+              },
+              "html_instructions": "Turn <b>right</b> at the 1st cross street onto <b>Camino Viejo de Simancas</b><div style=\"font-size:0.9em\">Go through 1 roundabout</div>",
+              "maneuver": "turn-right",
+              "polyline": {
+                "points": "y~_}Fhf`\\r@rAj@dAZj@LTFJLTnA|Bd@~@Zj@jAxBDJ@DAB?BA@?B?@?B?B?D?B@@?B?@@B@@?B@@@@@@@@B@@@@@@?@?@@B?@?@?@AB?HFDBFHHHHJNVT`@d@|@p@nAb@|@b@x@LTVf@T`@NXfApBz@nBHPHVJTN`@J\\J^Lf@Rv@Nn@Pr@Np@f@pBp@rC@JLh@Lj@Nn@BN\\|ABLDHVjADPDTDP\\`BPx@Ll@j@hCPz@@DNn@\\|A@FVt@BJRj@HVTl@b@jA"
+              },
+              "start_location": {
+                "lat": 41.6204506,
+                "lng": -4.75765
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "3.8 km",
+                "value": 3835
+              },
+              "duration": {
+                "text": "3 mins",
+                "value": 154
+              },
+              "end_location": {
+                "lat": 41.6072557,
+                "lng": -4.7312879
+              },
+              "html_instructions": "Turn <b>left</b> to merge onto <b>VA-30</b> toward <b>Madrid</b>/<b>Soria</b>/<b>Segovia</b>",
+              "maneuver": "ramp-left",
+              "polyline": {
+                "points": "on~|Flmc\\Th@FNf@k@n@o@n@u@JOHMJU@G@E@OBW?]AcAAc@@i@Bk@BS@EDWFWJ]HWHMBMD[vAmCRc@x@iBN]Zu@b@gAr@oBn@kBZeA\\qA\\uAVcAJm@TkA\\oBPsA@MTeBLmAP{B@WDo@FmAD{ADiAByB?k@@kAAuAAcB?WC_C?[AqA?yB?iA?EBuABm@DuADcABi@Fo@PyB\\uCXwBXwARmA|AiIdBcJF]f@mC\\sBJg@ZwBNiANoAJgAFg@Di@Dm@HeADk@Bk@Bc@FuABcABqA@q@?i@@qB?k@AqACoAAk@Ai@GmBIwAKuBOaCMaBIo@Gq@KmAGe@Gg@Gs@McAWqB]{Bc@sC_@{BG_@Ia@q@mD?AAAI[Os@S}@"
+              },
+              "start_location": {
+                "lat": 41.6127183,
+                "lng": -4.7741506
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "0.3 km",
+                "value": 279
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 14
+              },
+              "end_location": {
+                "lat": 41.6082439,
+                "lng": -4.7282154
+              },
+              "html_instructions": "Take exit <b>16AB</b> for <b>N-601</b> toward <b>Madrid</b>/<b>Laguna de Duero</b>/<b>Centro Cuidad</b>",
+              "maneuver": "ramp-right",
+              "polyline": {
+                "points": "kl}|Fpa{[@S?A?AWqAc@sB]{A]sAU}@w@yC"
+              },
+              "start_location": {
+                "lat": 41.6072557,
+                "lng": -4.7312879
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "0.3 km",
+                "value": 292
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 16
+              },
+              "end_location": {
+                "lat": 41.6094652,
+                "lng": -4.7251013
+              },
+              "html_instructions": "Keep <b>left</b> at the fork, follow signs for <b>Centro Cuidad</b>",
+              "maneuver": "fork-left",
+              "polyline": {
+                "points": "or}|Fjnz[{AaFi@cB?AY}@Me@YcAI]GUK_@Ok@"
+              },
+              "start_location": {
+                "lat": 41.6082439,
+                "lng": -4.7282154
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "1.3 km",
+                "value": 1271
+              },
+              "duration": {
+                "text": "2 mins",
+                "value": 105
+              },
+              "end_location": {
+                "lat": 41.6175842,
+                "lng": -4.7260931
+              },
+              "html_instructions": "Keep <b>right</b> at the fork to continue on <b>Exit 16A</b>, follow signs for <b>Centro ciudad</b> and merge onto <b>N-601</b>",
+              "maneuver": "fork-right",
+              "polyline": {
+                "points": "ez}|Fzzy[@Y?O?OBM@KBIBKDIBGDEDGDEDCBCBABC@?BABAFAHAD?F?D?F@J@JBLDD@FBFDFDJHBBBDBDBDBFBDBHBL@F@F?D@H?NAJAF?FCLCHCDABCBCBEBA@A?A@INe@FK@C@{@JSBC@G@C?E@I@A?M@G@KBG?wARUB_ALsANi@Fy@Fa@Dy@Dg@Bu@DO?]@Y@sA@iBAyB?i@Aq@?cBAyB?I?G?wBAcC?_@?G?EAE?IAYI"
+              },
+              "start_location": {
+                "lat": 41.6094652,
+                "lng": -4.7251013
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "52 m",
+                "value": 52
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 8
+              },
+              "end_location": {
+                "lat": 41.6179879,
+                "lng": -4.7260254
+              },
+              "html_instructions": "Slight <b>right</b> toward <b>Av. Madrid</b>/<b>N-601</b>",
+              "maneuver": "turn-slight-right",
+              "polyline": {
+                "points": "{l_}F`az[A??AAAAECCCCAACCCCCACAA?AAA?A?A?A?A?A?E@C?C@CBC@CBC@CD"
+              },
+              "start_location": {
+                "lat": 41.6175842,
+                "lng": -4.7260931
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "1.9 km",
+                "value": 1880
+              },
+              "duration": {
+                "text": "3 mins",
+                "value": 181
+              },
+              "end_location": {
+                "lat": 41.6345509,
+                "lng": -4.7291439
+              },
+              "html_instructions": "Continue onto <b>Av. Madrid</b>/<b>N-601</b> (signs for <b>Centro ciudad</b>)<div style=\"font-size:0.9em\">Continue to follow N-601</div>",
+              "polyline": {
+                "points": "mo_}Ft`z[A@?@A@?@A@?@MFIBG@K@Q?U?i@?}A?o@?S?sB?gB@Y?uA?]?M?c@AK?WAUAo@EWAMAWCm@EWAcAGi@Em@EUAWCUAWAOAI?UAC?W?K?Q?U@W@U@UBUBWBUDw@P{Bf@g@LYH_@JKDYHKDKBMB_ARm@NC@_ATaDv@a@He@Lw@RODKBe@LgB^aE~@e@L_ARWD[HwGxAA?w@PYFMDWJKDWHGBMDKBI@MBSD"
+              },
+              "start_location": {
+                "lat": 41.6179879,
+                "lng": -4.7260254
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "43 m",
+                "value": 43
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 9
+              },
+              "end_location": {
+                "lat": 41.634885,
+                "lng": -4.729143800000001
+              },
+              "html_instructions": "Turn <b>right</b> toward <b>Ape 25-1 Ariza</b>",
+              "maneuver": "turn-right",
+              "polyline": {
+                "points": "}vb}Fbtz[OMGCCAEAE?A@A?A?A@A?A@A??@A@A@A?A@A@?@A@?@"
+              },
+              "start_location": {
+                "lat": 41.6345509,
+                "lng": -4.7291439
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "58 m",
+                "value": 58
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 14
+              },
+              "end_location": {
+                "lat": 41.6346311,
+                "lng": -4.7295479
+              },
+              "html_instructions": "Keep <b>left</b> to continue toward <b>Ape 25-1 Ariza</b>",
+              "maneuver": "keep-left",
+              "polyline": {
+                "points": "_yb}Fbtz[CFADAB?F@RHRDHDBD@FBF?JC"
+              },
+              "start_location": {
+                "lat": 41.634885,
+                "lng": -4.729143800000001
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "80 m",
+                "value": 80
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 18
+              },
+              "end_location": {
+                "lat": 41.63446320000001,
+                "lng": -4.7304828
+              },
+              "html_instructions": "Turn <b>right</b> onto <b>Ape 25-1 Ariza</b>",
+              "maneuver": "turn-right",
+              "polyline": {
+                "points": "mwb}Ftvz[H|@VzB"
+              },
+              "start_location": {
+                "lat": 41.6346311,
+                "lng": -4.7295479
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "59 m",
+                "value": 59
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 15
+              },
+              "end_location": {
+                "lat": 41.6349845,
+                "lng": -4.7306386
+              },
+              "html_instructions": "Turn <b>right</b> onto <b>Calle de Orlando</b>",
+              "maneuver": "turn-right",
+              "polyline": {
+                "points": "kvb}Fn|z[KBc@Hw@P"
+              },
+              "start_location": {
+                "lat": 41.63446320000001,
+                "lng": -4.7304828
+              },
+              "travel_mode": "DRIVING"
+            }
+          ],
+          "traffic_speed_entry": [],
+          "via_waypoint": [
+            {
+              "location": {
+                "lat": 41.6054617,
+                "lng": -4.7399765
+              },
+              "step_index": 2,
+              "step_interpolation": 0.8038524186106827
+            }
+          ]
+        },
+        {
+          "distance": {
+            "text": "0.2 km",
+            "value": 218
+          },
+          "duration": {
+            "text": "1 min",
+            "value": 42
+          },
+          "end_address": "Lugar Ape 25, 9, 47007 Valladolid, Spain",
+          "end_location": {
+            "lat": 41.6361528,
+            "lng": -4.7319321
+          },
+          "start_address": "Ape 25-1 Ariza, 8, 47008 Valladolid, Spain",
+          "start_location": {
+            "lat": 41.6349845,
+            "lng": -4.7306386
+          },
+          "steps": [
+            {
+              "distance": {
+                "text": "94 m",
+                "value": 94
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 20
+              },
+              "end_location": {
+                "lat": 41.6358072,
+                "lng": -4.730893000000001
+              },
+              "html_instructions": "Head <b>north</b> on <b>Calle de Orlando</b> toward <b>Calle Lecce</b>",
+              "polyline": {
+                "points": "syb}Fn}z[a@HcCf@"
+              },
+              "start_location": {
+                "lat": 41.6349845,
+                "lng": -4.7306386
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "66 m",
+                "value": 66
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 13
+              },
+              "end_location": {
+                "lat": 41.6356701,
+                "lng": -4.7316615
+              },
+              "html_instructions": "Turn <b>left</b> onto <b>Calle Lecce</b>",
+              "maneuver": "turn-left",
+              "polyline": {
+                "points": "y~b}F`_{[ZxC"
+              },
+              "start_location": {
+                "lat": 41.6358072,
+                "lng": -4.730893000000001
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "58 m",
+                "value": 58
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 9
+              },
+              "end_location": {
+                "lat": 41.6361528,
+                "lng": -4.7319321
+              },
+              "html_instructions": "Turn <b>right</b> onto <b>Calle de Boston</b>",
+              "maneuver": "turn-right",
+              "polyline": {
+                "points": "}}b}Fzc{[_Bt@"
+              },
+              "start_location": {
+                "lat": 41.6356701,
+                "lng": -4.7316615
+              },
+              "travel_mode": "DRIVING"
+            }
+          ],
+          "traffic_speed_entry": [],
+          "via_waypoint": []
+        },
+        {
+          "distance": {
+            "text": "0.2 km",
+            "value": 229
+          },
+          "duration": {
+            "text": "1 min",
+            "value": 41
+          },
+          "end_address": "Calle de Boston, 6, 47008 Valladolid, Spain",
+          "end_location": {
+            "lat": 41.6381477,
+            "lng": -4.7326071
+          },
+          "start_address": "Lugar Ape 25, 9, 47007 Valladolid, Spain",
+          "start_location": {
+            "lat": 41.6361528,
+            "lng": -4.7319321
+          },
+          "steps": [
+            {
+              "distance": {
+                "text": "0.2 km",
+                "value": 229
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 41
+              },
+              "end_location": {
+                "lat": 41.6381477,
+                "lng": -4.7326071
+              },
+              "html_instructions": "Head <b>northwest</b> on <b>Calle de Boston</b> toward <b>Calle de Adolfo Suarez</b><div style=\"font-size:0.9em\">Destination will be on the left</div>",
+              "polyline": {
+                "points": "}`c}Fpe{[a@RWFwAZyAZsAZoAV"
+              },
+              "start_location": {
+                "lat": 41.6361528,
+                "lng": -4.7319321
+              },
+              "travel_mode": "DRIVING"
+            }
+          ],
+          "traffic_speed_entry": [],
+          "via_waypoint": []
+        }
+      ],
+      "overview_polyline": {
+        "points": "cd`}Fpk`\\~ByBh@m@~AxC~@bB|EbJFPAFAJDZNPR?`@^tAbClGrLzAnDt@fCdAlExAdGNt@~@hEHV\\|Az@bElAxFl@lCX|@v@|Bx@tBFNf@k@~AeBT]L]BUBu@AcA?mAF_AZsARe@Hi@jBqDhAgC~@}BbB{Ex@wCt@yC`@yBn@cEVsB^iETqFHcE@wBGqIAqHL_FHmBXiDv@mGl@eDrFyYh@{Cj@aEh@iFXkERoGByFIwFQeE[wFk@qGe@eEu@mFcAoGcAqFo@oC@UWsAaAoEs@qCw@yC{AaFi@eBkAeESu@Ok@@Y?_@DYPg@VWLIXGZ@j@Lb@XNTNd@D^Cj@M`@OLC@INe@FOBoANOB{@JaGt@_EZkCJmBBcFAyHCmGAs@Ae@KGMMMKEU@OJIHADYN{@BkE?kI@{AAaFYgG_@{@AkAByALmAVcDt@_Bd@eB`@cLpCuNbDkJrBiA`@k@Na@HWQQAG@MJELCH@ZN\\JDNBJCH|@VzBKB{AZeDp@ZxC_Bt@y@ZqDv@cDr@"
+      },
+      "summary": "VA-30",
+      "warnings": [],
+      "waypoint_order": []
+    }
+  ],
+  "status": "OK"
+}

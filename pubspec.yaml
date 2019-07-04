@@ -1,0 +1,109 @@
+name: call_for_code_2019
+description: A new Flutter project.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.2.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+  firebase_messaging: ^5.0.1+1
+  google_maps_flutter: ^0.5.15
+  location: 1.4.1
+  carousel_slider: ^1.3.0
+  json_annotation: ^2.4.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^1.0.0
+  json_serializable: ^3.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+  assets:
+   - assets/mock_routes_responses/MockRouteResponse1.json
+   - assets/mock_routes_responses/MockRouteResponse2.json
+   - assets/mock_routes_responses/MockRouteResponse3.json
+   - assets/mock_routes_responses/MockRouteResponse4.json
+   - assets/mock_routes_responses/MockRouteResponse5.json
+   - assets/mock_routes_responses/MockRouteResponse6.json
+   - assets/mock_routes_responses/ValladolidMockRoute.json
+   - lib/resources/images/personMarker.png
+   - lib/resources/images/personMarker_unselected.png
+   - lib/resources/images/shelterMarker.png
+   - lib/resources/images/carMarker.png
+   - lib/resources/images/unselectedShelterMarker.png
+   - lib/resources/images/victimImageButton.png
+   - lib/resources/images/helperImageButton.png
+   - lib/resources/images/route.png
+   - lib/resources/images/parachute.png
+   - lib/resources/images/medicalAssistance.png
+   - lib/resources/images/house.png
+   - lib/resources/images/victim_confirmation.png
+   - lib/resources/images/bell.png
+   - lib/resources/images/houseIcon.png
+   - lib/resources/images/carMarker.png
+   - lib/resources/images/helpervictim.png
+   - lib/resources/images/victimSaved.png
+   - lib/resources/images/confirmation.png
+   - lib/resources/images/personMarkeriOS.png
+   - lib/resources/images/wheelChair.png
+   - lib/resources/images/personMarker_unselectediOS.png
+   - lib/resources/images/shelterMarkeriOS.png
+   - lib/resources/images/unselectedShelterMarkeriOS.png
+   - lib/resources/images/carMarkeriOS.png
+  
+   
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
