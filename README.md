@@ -26,17 +26,17 @@ Voluntree is a tool that enables volunteers help the most vulnerable people duri
 
 We have focused our efforts in the transportation case scenario.
 
-⋅⋅* Users who need help will have access to tools that will let them get to a safe shelter as soon as possible. For example, they will be able to get updates on the affected areas, see refuges set up by authorities available near them in a map, they will be matched to a volunteer who offers transportation, and they will be able to check how much time is left for the volunteer to arrive. 
-⋅⋅* The app will automatize and simplify steps needed to take for volunteers to help people, in order to make organization easier for everybody. They will be automatically matched with people who need help, and the app will show them the best route to reach them in a map, avoiding affected areas and traffic jams. Once a volunteer reaches a victim, the app will lead both of them to a safe shelter by showing them the optimal route with directions.
+-    Users who need help will have access to tools that will let them get to a safe shelter as soon as possible. For example, they will be able to get updates on the affected areas, see refuges set up by authorities available near them in a map, they will be matched to a volunteer who offers transportation, and they will be able to check how much time is left for the volunteer to arrive. 
+-    The app will automatize and simplify steps needed to take for volunteers to help people, in order to make organization easier for everybody. They will be automatically matched with people who need help, and the app will show them the best route to reach them in a map, avoiding affected areas and traffic jams. Once a volunteer reaches a victim, the app will lead both of them to a safe shelter by showing them the optimal route with directions.
 
 # Included Components - 
 
 We have leveraged the following IBM components in our application:
 
-⋅⋅* **IBM Cloudant.** The NoSQL DB service from IBM offers us a way to store all the registrations (whether they are victims or helpers) and all the relevant information related with the catastrophe. We have chosen it for its lightweigh database, easy quering, scalability, and because it can provide data stored directly in JSON format.
-⋅⋅* **IBM Push Notifications.** Essential for our mobile application. It will allow us to notify the users and keep them up to date with events and relevant information about the catastrophe. It is the perfect component for push notifications in our app because of its compatibility with IBM Cloud System.
-⋅⋅* **IBM Cloud Functions.** We want to react to changes in IBM Cloudant and send push notifications to users if needed as soon as possible, so we connect both the IBM Cloudant and the IBM Push Notification services using IBM Cloud Functions. It detects when data is updated in Cloudant and checks if any notifications should be sent. It is easy to compose using JS, it gives us control over our IBM data flow, and handles IBM Services events.
-⋅⋅* **IBM Watson Assistant.** In an event of a natural disaster users may need to express what they want instead of filling forms. We work with Watson Assistant for building a natural conversation, giving victims a feeling of calm and serenity with its dvanced conversational skills and natural language. We have chosen it since it is also compatible with another IBM speech services.
+-   **IBM Cloudant.** The NoSQL DB service from IBM offers us a way to store all the registrations (whether they are victims or helpers) and all the relevant information related with the catastrophe. We have chosen it for its lightweigh database, easy quering, scalability, and because it can provide data stored directly in JSON format.
+-   **IBM Push Notifications.** Essential for our mobile application. It will allow us to notify the users and keep them up to date with events and relevant information about the catastrophe. It is the perfect component for push notifications in our app because of its compatibility with IBM Cloud System.
+-    **IBM Cloud Functions.** We want to react to changes in IBM Cloudant and send push notifications to users if needed as soon as possible, so we connect both the IBM Cloudant and the IBM Push Notification services using IBM Cloud Functions. It detects when data is updated in Cloudant and checks if any notifications should be sent. It is easy to compose using JS, it gives us control over our IBM data flow, and handles IBM Services events.
+-    **IBM Watson Assistant.** In an event of a natural disaster users may need to express what they want instead of filling forms. We work with Watson Assistant for building a natural conversation, giving victims a feeling of calm and serenity with its dvanced conversational skills and natural language. We have chosen it since it is also compatible with another IBM speech services.
 
 # Featured Technologies - 
 
@@ -53,11 +53,11 @@ The main reasons for this choice are:
 
 The following scheme is used to describe how Voluntree works: authorities store data to IBM Cloudant regarding the affected areas and the available shelters. Once information is uploaded, IBM Cloudant emits an event to IBM Cloud functions, triggering a push notification to nearby users via IBM Push Notifications. This way, users will be able to start asking for help or offering it. Also, whenever a user registers their data in the app, Voluntree will upload it to IBM Cloudant, letting the servers match victims with volunteers efficiently.
 
-![alt text](https://github.com/cfc-hummingbirds/Voluntree/tree/master/assets/diagrams/diagram1.png "Voluntree Diagram 1")
+![Voluntree Diagram 1](https://raw.githubusercontent.com/cfc-hummingbirds/Voluntree/master/assets/diagrams/diagram1.png "Voluntree Diagram 1")
 
 Data from conversations that users will hold with Watson Assisatnt will also be stored to IBM Cloudant and used to optimize peer-to-peer collaboration and user matching.
 
-![alt text](https://github.com/cfc-hummingbirds/Voluntree/tree/master/assets/diagrams/diagram2.png "Voluntree Diagram 2")
+![Voluntree Diagram 2](https://raw.githubusercontent.com/cfc-hummingbirds/Voluntree/master/assets/diagrams/diagram2.png "Voluntree Diagram 2")
 
 # Steps - 
 
@@ -69,9 +69,9 @@ Data from conversations that users will hold with Watson Assisatnt will also be 
 
 In our first approach, we have focused our attention in the transportation use case, and we hope Voluntree will be an efficient tool in organizing peer-to-peer evacuations and making them quicker. But our scope does not stop there. There are three more use cases that we want to include in our final solution:
 
-⋅⋅* **Medical assistance**: we want to connect people who needs medicines with the nearest specialists to speed up the aid and reach more people.
-⋅⋅* **Food and supplies**: in this kind of situations, access to food and basic supplies is often difficult, so we want to offer a way to make it easier for people to share food and supplies between them.
-⋅⋅* **Housing**: in a natural disaster, homes may be damaged or innaccessible due to weather, so we want to give the possibility to offer and ask for shelter.
+-    **Medical assistance**: we want to connect people who needs medicines with the nearest specialists to speed up the aid and reach more people.
+-    **Food and supplies**: in this kind of situations, access to food and basic supplies is often difficult, so we want to offer a way to make it easier for people to share food and supplies between them.
+-    **Housing**: in a natural disaster, homes may be damaged or innaccessible due to weather, so we want to give the possibility to offer and ask for shelter.
 
 We are also looking forward to implementing a chatbot using IBM Watson Assistant, since in an event of s natural disaster users may be shocked, so it will be hard for them to navigate through the app and fill forms. We want to use the latest technology on conversational assistants to help users with the process of asking for help. Also, using Google Assistant and Siri shortcuts we will be able to launch Watson Assistant in order to start talking with it by simply saying: “I want to talk to Voluntree”, or just “I need help”.
 
