@@ -16,8 +16,6 @@ Voluntree is a mobile cross-platform application that facilitates peer-to-peer c
 
 Voluntree is written in Dart, and it is built using Flutter, an open-source mobile app framework created by Google that enables cross-platform development.
 
-// TODO Add video link, add architectural diagram
-
 # Current Problem 
 
 In the unpredictable event of a natural disaster, such as a flood, earthquake or wildfire, inmediate and efficient response is required to mitigate damage and save lives. Emergency response teams do their best to face these catastrophes, but sometimes their effort is not enough. At the same time, we know that these situations bring out the best in people, since whenever a natural disaster occurs we see hundreds of messages in social media of individuals trying to help victims by offering what they can. We believe that people's willingness to collaborate can be a life-saver, if organized properly.
