@@ -4,7 +4,7 @@
 
 - [Presentation](https://github.com/cfc-hummingbirds/Voluntree/blob/master/callforcode%20presentation.pdf)
 - [APK](https://github.com/cfc-hummingbirds/Voluntree/tree/master/apps)
-- [VIDEO](https://github.com/cfc-hummingbirds/Voluntree/blob/master/voluntree_video.mp4)
+- [VIDEO](https://www.dropbox.com/s/2pv1aafpx2r3pmx/voluntree%20video%20prototype.mp4?dl=0)
 
 # Project Title
 
